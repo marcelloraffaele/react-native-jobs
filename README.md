@@ -1,3 +1,9 @@
+# Info
+This project is the result of the youtube video: [Build and Deploy a React Native App | 2023 React Native Course Tutorial for Beginners - YouTube](https://www.youtube.com/watch?v=mJ3bGvy0WAY)
+
+and the code is from:
+[Githhub project](https://github.com/adrianhajdin/project_react_native_jobs/)
+
 # Expo Router Example
 
 Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
@@ -21,11 +27,11 @@ npx create-expo-app -e with-router
 [Setting up the development environment · React Native](https://reactnative.dev/docs/environment-setup)
 [Snacks — Expo](https://expo.dev/accounts/rmarcello/snacks)
 
-[Build and Deploy a React Native App | 2023 React Native Course Tutorial for Beginners - YouTube](https://www.youtube.com/watch?v=mJ3bGvy0WAY)
+
 
 [Install Expo Router - Expo Documentation](https://docs.expo.dev/router/installation/)
 
-[Githhub project](https://github.com/adrianhajdin/project_react_native_jobs/)
+
 
 # Commands
 ## start with tunnel
