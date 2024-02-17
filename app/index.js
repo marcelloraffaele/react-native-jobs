@@ -34,12 +34,12 @@ const Home = () => {
           flex: 1,
           padding: SIZES.medium
         }}>
-          <Welcome 
+          <Welcome
             searchTerm={searchTerm}
             setSearchTerm={setSearchTerm}
             handleClick={() => {
-              if(searchTerm) {
-                router.push(`/search/${searchTerm}`);
+              if (searchTerm) {
+                router.push(`/search/${searchTerm}`)
               }
             }}
           />

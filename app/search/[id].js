@@ -26,7 +26,7 @@ const JobSearch = () => {
                 method: "GET",
                 url: `https://jsearch.p.rapidapi.com/search`,
                 headers: {
-                    "X-RapidAPI-Key": '',
+                    "X-RapidAPI-Key": 'xxxx',
                     "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
                 },
                 params: {
@@ -34,9 +34,10 @@ const JobSearch = () => {
                     page: page.toString(),
                 },
             };
-
             const response = await axios.request(options);
             setSearchResult(response.data.data);
+
+            
         } catch (error) {
             setSearchError(error);
             console.log(error);

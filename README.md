@@ -25,10 +25,16 @@ npx create-expo-app -e with-router
 
 [Install Expo Router - Expo Documentation](https://docs.expo.dev/router/installation/)
 
-https://github.com/adrianhajdin/project_react_native_jobs/blob/main/app/search/%5Bid%5D.js
+[Githhub project](https://github.com/adrianhajdin/project_react_native_jobs/)
 
-# tunnel
+# Commands
+## start with tunnel
 
 ```bash
 npx expo start --tunnel
+```
+
+## Start
+```bash 
+npm start
 ```
